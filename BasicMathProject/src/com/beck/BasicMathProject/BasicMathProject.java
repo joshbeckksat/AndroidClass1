@@ -1,3 +1,4 @@
+package com.beck.BasicMathProject;
 import java.util.Scanner;
 
 

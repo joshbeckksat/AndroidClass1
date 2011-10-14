@@ -12,11 +12,32 @@ public class BasicMathProject {
 		Scanner scanme = new Scanner(System.in);
 		
 		System.out.println("Enter Your First Number");
-		
+		int number1 = scanme.nextInt();
 		System.out.println("Enter Your Second Number");
-
+        int number2 = scanme.nextInt();
 		System.out.println("Press 1 to add, 2 to subtract, 3 to multiply, 4 to divide");
-		 
+		int choice =scanme.nextInt();
+		
+		if (choice == 1)
+		{
+			int answer = addemup(number1, number2);
+			System.out.println(answer);
+		}
+		if (choice == 2)
+		{
+			int answer = subtractemdown(number1, number2);
+			System.out.println(answer);
+		}
+		if (choice == 3)
+		{
+			int answer = multiplymethod(number1, number2);
+			System.out.println(answer);
+		}
+		if (choice == 1)
+		{
+			int answer = dividetwonumbers(number1, number2);
+			System.out.println(answer);
+		}
 	//test comment
 	}
 	
